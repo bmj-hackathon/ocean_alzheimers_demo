@@ -19,6 +19,7 @@ ipykernel = "*"
 matplotlib = "*"
 jupyter = "*"
 xgboost = "*"
+squid-py = "*"
 
 [requires]
 python_version = "3.6"

@@ -38,12 +38,13 @@ print('xgboost', xgboost.__version__)
 # For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
 
 import os
-print(os.listdir("../input"))
+from pathlib import Path
+print(os.listdir("./input"))
 
 # Any results you write to the current directory are saved as output.
 
 #data = pd.read_csv("../input/oasis_cross-sectional.csv")
-data = pd.read_csv('../input/oasis_longitudinal.csv')
+data = pd.read_csv('./input/oasis_longitudinal.csv')
 
 print(data.columns)
 print(data.describe())
