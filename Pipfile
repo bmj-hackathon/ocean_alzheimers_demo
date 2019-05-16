@@ -15,8 +15,8 @@ tqdm = "*"
 ipython = "*"
 sklearn-pandas = "*"
 ipykernel = "*"
-tensorflow-gpu = "==1.12"
-xmltodict = "*"
+matplotlib = "*"
+jupyter = "*"
 
 [requires]
 python_version = "3.6"
