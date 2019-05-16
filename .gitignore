@@ -104,6 +104,6 @@ ENV/
 sphinx
 .editorconfig
 
-
+/input
 
 data
